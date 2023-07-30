@@ -7,6 +7,10 @@ html {
   font-family: "M PLUS Rounded 1c", sans-serif !important;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 header,
 footer,
 .ratings {
