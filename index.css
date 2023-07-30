@@ -900,18 +900,12 @@ button {
 } */
 
 @media only screen and (max-width: 1156px) {
-  .only-mobile {
-    display: block;
-    display: flex;
-  }
+
 
   .left-content .content_text {
     font-size: 24px;
   }
-  .left-content .content_text button {
-    display: block;
-    margin-bottom: 4px;
-  }
+
 
   .text-yellow.content_text{
     font-size: 18px;
@@ -954,21 +948,6 @@ button {
 }
 
 
-@media only screen and (max-width: 740px) {
-  .header .header-content p.title {
-    font-size: 25px;
-    line-height: 33px;
-  }
-  .header .header-content {
-    padding: 0 20px;
-  }
-  .left-content .content_text {
-    font-size: 18px;
-}
-  .right-content .content_text {
-    font-size: 18px;
-}
-}
 
 
 @media only screen and (max-width: 1200px) {
@@ -988,6 +967,32 @@ button {
     height: 2000px;
   } */
 }
+
+
+
+@media only screen and (max-width: 740px) {
+  .header .header-content p.title {
+    font-size: 25px;
+    line-height: 33px;
+  }
+  .header .header-content {
+    padding: 0 20px;
+  }
+  .left-content .content_text {
+    font-size: 18px;
+}
+  .right-content .content_text {
+    font-size: 18px;
+}
+
+.button-ads {
+  font-size: 12px;
+  margin-bottom: 6px;  
+}
+
+
+}
+
 @media only screen and (max-width: 720px) {
   /* .intro_foundation {
     height: 2200px;
@@ -1037,4 +1042,6 @@ button {
     font-size: 20px;
   }
 }
+
+
 
