@@ -23,7 +23,7 @@ function reset() {
   getId("buttonrest").click();
   getId('loadMe').click()
 
-  window.location.href = "/tiktok-landing-page/#payment";
+  window.location.href = "/tiktok-landing-page#payment";
   window.location.reload()
   // window.location.;
 }
