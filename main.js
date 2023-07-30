@@ -20,7 +20,8 @@ function resetForm() {
 }
 
 function reset() {
-  window.location.href = "/tiktok-landing-page/#register";
+  window.location.reload()
+  window.location.href = "/tiktok-landing-page/#payment";
   // window.location.;
 }
 
