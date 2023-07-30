@@ -20,7 +20,7 @@ function resetForm() {
 }
 
 function reset() {
-  window.location.href = "";
+  window.location.href = "/#payment";
   // window.location.;
 }
 
@@ -49,6 +49,7 @@ async function validate() {
     return false;
   } else {
     getId("button-submit").disabled = true;
+    getId("loadMe").click();
 
     let year = new Date().getFullYear();
     let month = new Date().getMonth() + 1;
@@ -64,6 +65,8 @@ async function validate() {
       "NGÀY ĐĂNG KÝ": `${day}/${month}/${year} ${hour}:${minute}`,
     });
     if (result.status == 201) {
+      resetForm();
+      getId("loadMe").click();
       getId("buttonrest").click();
     }
   }
@@ -113,6 +116,9 @@ const swiperEl = document.querySelector("swiper-container");
 Object.assign(swiperEl, {
   slidesPerView: 2,
   spaceBetween: 10,
+  autoplay: {
+    delay: 1000,
+  },
   pagination: {
     clickable: true,
   },

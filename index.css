@@ -551,18 +551,18 @@ swiper-slide img {
 
 .text-area + .focus-input100::after {
   /* bottom: 10px; */
-  top: 50px;
+  top: 14px;
 }
 
 .input100:focus + .focus-input100::after {
-  top: -15px;
+  top: -10px;
 }
 
 .input100:focus + .focus-input100::before {
   width: 100%;
 }
 .input100.text-area:focus + .focus-input100::after {
-  top: -20px;
+  top: -22px;
 }
 
 .input100.text-area:focus + .focus-input100::before {
@@ -612,7 +612,7 @@ textarea {
 }
 
 .text-area {
-  height: 80px;
+  height: 40px;
 }
 
 button {
