@@ -20,6 +20,9 @@ function resetForm() {
 }
 
 function reset() {
+  getId("buttonrest").click();
+  getId('loadMe').click()
+
   window.location.href = "/tiktok-landing-page/#payment";
   window.location.reload()
   // window.location.;
@@ -50,7 +53,7 @@ async function validate() {
     return false;
   } else {
     getId("button-submit").disabled = true;
-
+    getId('loadMe').click()
     let year = new Date().getFullYear();
     let month = new Date().getMonth() + 1;
     let day = new Date().getDate();
@@ -65,6 +68,7 @@ async function validate() {
       "NGÀY ĐĂNG KÝ": `${day}/${month}/${year} ${hour}:${minute}`,
     });
     if (result.status == 201) {
+      resetForm();
       getId("buttonrest").click();
     }
   }
