@@ -429,7 +429,7 @@ swiper-container#swiper-coaching swiper-slide img {
 swiper-container#swiper-list swiper-slide  {
   height: 660px;
   margin-right: 0 !important;
-  background-size: cover;
+  background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -458,6 +458,9 @@ swiper-container#swiper-list swiper-slide#image-10-swiper  {
 }
 swiper-container#swiper-list swiper-slide#image-15-swiper  {
   background-image: url('./imagenew/16.jpg');
+}
+swiper-container#swiper-list swiper-slide#image-16-swiper  {
+  background-image: url('./imagenew/9.jpg');
 }
 swiper-container#swiper-list swiper-slide#image-8-swiper  {
   background-image: url('./imagenew/8.jpg');
