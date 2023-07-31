@@ -164,56 +164,13 @@ Object.assign(swiperEl, {
 });
 swiperEl.initialize();
 
-const swiperEl2 = document.getElementById('swiper-intro');
-Object.assign(swiperEl2, {
-  slidesPerView: 2,
-  spaceBetween: 10,
-  pagination: {
-    clickable: true,
-  },
-  autoplay: {
-    delay: 2200,
-  },
-  breakpoints: {
-    340: {
-      slidesPerView: 1,
-      spaceBetween: 20,
-    },
-    440: {
-      slidesPerView: 1,
-      spaceBetween: 20,
-    },
-    540: {
-      slidesPerView: 1,
-      spaceBetween: 20,
-    },
-    640: {
-      slidesPerView: 1,
-      spaceBetween: 20,
-    },
-    768: {
-      slidesPerView: 2,
-      spaceBetween: 40,
-    },
-    1024: {
-      slidesPerView: 3,
-      spaceBetween: 50,
-    },
-  },
-});
 
-
-swiperEl2.initialize();
 
 
 
 const swiperEl3 = document.getElementById('swiper-list');
 Object.assign(swiperEl3, {
   slidesPerView: 2,
-  spaceBetween: 10,
-  pagination: {
-    clickable: true,
-  },
   autoplay: {
     delay: 3000,
   },
@@ -245,3 +202,46 @@ Object.assign(swiperEl3, {
   },
 });
 swiperEl3.initialize();
+
+
+
+// const swiperEl2 = document.getElementById('swiper-intro');
+// Object.assign(swiperEl2, {
+//   slidesPerView: 2,
+//   spaceBetween: 10,
+//   pagination: {
+//     clickable: true,
+//   },
+//   // autoplay: {
+//     // delay: 2200,
+//   // },
+//   breakpoints: {
+//     340: {
+//       slidesPerView: 1,
+//       spaceBetween: 20,
+//     },
+//     440: {
+//       slidesPerView: 1,
+//       spaceBetween: 20,
+//     },
+//     540: {
+//       slidesPerView: 1,
+//       spaceBetween: 20,
+//     },
+//     640: {
+//       slidesPerView: 1,
+//       spaceBetween: 20,
+//     },
+//     768: {
+//       slidesPerView: 2,
+//       spaceBetween: 40,
+//     },
+//     1024: {
+//       slidesPerView: 3,
+//       spaceBetween: 50,
+//     },
+//   },
+// });
+
+
+// swiperEl2.initialize();

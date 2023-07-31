@@ -426,29 +426,65 @@ swiper-container#swiper-coaching swiper-slide img {
 }
 
 
+swiper-container#swiper-list swiper-slide  {
+  height: 660px;
+  margin-right: 0 !important;
+}
 
+swiper-container#swiper-list swiper-slide#image-2-swipper  {
+  width: 660px !important;
+}
+
+swiper-container#swiper-list swiper-slide#image-3-swiper  {
+  width: 837px !important;
+}
+swiper-container#swiper-list swiper-slide#image-4-swiper  {
+  width: 992px !important;
+}
+swiper-container#swiper-list swiper-slide#image-5-swiper  {
+  width: 990px !important;
+}
+swiper-container#swiper-list swiper-slide#image-6-swiper  {
+  width: 877px !important;
+}
+swiper-container#swiper-list swiper-slide#image-7-swiper  {
+  width: 882px !important;
+}
+swiper-container#swiper-list swiper-slide#image-10-swiper  {
+  width: 492px !important;
+}
+swiper-container#swiper-list swiper-slide#image-15-swiper  {
+  width: 660px !important;
+}
+swiper-container#swiper-list swiper-slide#image-8-swiper  {
+  width: 663px !important;
+}
+
+ 
 swiper-container#swiper-intro swiper-slide  {
   height: 660px;
   margin-right: 0 !important;
 }
 
-swiper-container#swiper-intro swiper-slide#last  {
+
+
+
+/* swiper-container#swiper-intro swiper-slide#last  {
   width: 1200px !important;
+} */
+
+
+/* swiper-container#swiper-intro swiper-slide img {
+  height: 100%;
+  width: 100%;
 }
 
 
-swiper-container#swiper-intro swiper-slide img {
-  height: 660px;
-}
 
-
-swiper-container#swiper-list swiper-slide  {
-  height: 660px;
-  margin-right: 0 !important;
-}
 swiper-container#swiper-list swiper-slide img {
-  height: 660px;
-}
+  height: 100%;
+  width: 100%;
+} */
 
 
 
