@@ -295,8 +295,20 @@ body {
 .tiktoker .image:has( > img):hover {
   transform: translateY(-5%);
   filter: drop-shadow(0 -6mm 4mm rgb(234, 243, 106));
-
 }
+
+.tiktoker .image:has( > img) {
+  filter: drop-shadow(0 -6mm 4mm rgb(179, 135, 6));
+}
+
+.tiktoker .image:first-child{
+  transform: translateX(16px);
+}
+.tiktoker .image:last-child{
+  transform: translateX(-20px);
+}
+
+
 
 .popup-register{
   transform: translateY(-76px);
@@ -989,6 +1001,10 @@ button {
   .right-content .content_text {
     font-size: 18px;
 }
+
+.card.box-shadow{
+  width: 18rem !important;
+} 
 
 .button-ads {
   font-size: 12px;

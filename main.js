@@ -121,6 +121,9 @@ Object.assign(swiperEl, {
   pagination: {
     clickable: true,
   },
+  autoplay: {
+    delay: 1000,
+  },
   breakpoints: {
     340: {
       slidesPerView: 1,
