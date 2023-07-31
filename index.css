@@ -1093,7 +1093,7 @@ button {
   swiper-container#swiper-list swiper-slide  {
     
     margin-right: 20px !important;
-
+    background-size: contain !important;
   }
 
   .header .header-content {
