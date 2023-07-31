@@ -1156,6 +1156,11 @@ button {
   .payment .container {
     max-width: 620px;
   }
+  .header .header-content p.quote{
+    font-size: 14px;
+    font-weight: 500;
+    padding: 6px 0;
+  }
 
   .wrap-login100 {
     padding: 60px 10px 33px 10px;
