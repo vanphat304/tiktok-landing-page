@@ -461,10 +461,7 @@ swiper-container#swiper-list swiper-slide#image-20-swiper {
 swiper-container#swiper-list swiper-slide#image-21-swiper {
   background-image: url("./imagenew/21.jpg");
 }
-swiper-container#swiper-list swiper-slide#image-22-swiper {
-  background-image: url("./imagenew/22.jpg");
-  background-size: contain;
-}
+
 swiper-container#swiper-list swiper-slide#image-23-swiper {
   background-image: url("./imagenew/23.jpg");
 }
