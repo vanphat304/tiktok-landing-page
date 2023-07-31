@@ -429,35 +429,38 @@ swiper-container#swiper-coaching swiper-slide img {
 swiper-container#swiper-list swiper-slide  {
   height: 660px;
   margin-right: 0 !important;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 swiper-container#swiper-list swiper-slide#image-2-swipper  {
-  width: 660px !important;
+  background-image: url('./imagenew/1.jpg');
 }
 
 swiper-container#swiper-list swiper-slide#image-3-swiper  {
-  width: 837px !important;
+  background-image: url('./imagenew/3.jpg');
 }
 swiper-container#swiper-list swiper-slide#image-4-swiper  {
-  width: 992px !important;
+  background-image: url('./imagenew/4.jpg');
 }
 swiper-container#swiper-list swiper-slide#image-5-swiper  {
-  width: 990px !important;
+  background-image: url('./imagenew/6.jpg');
 }
 swiper-container#swiper-list swiper-slide#image-6-swiper  {
-  width: 877px !important;
+  background-image: url('./imagenew/7.jpg');
 }
 swiper-container#swiper-list swiper-slide#image-7-swiper  {
-  width: 882px !important;
+  background-image: url('./imagenew/10.jpg');
 }
 swiper-container#swiper-list swiper-slide#image-10-swiper  {
-  width: 492px !important;
+  background-image: url('./imagenew/15.jpg');
 }
 swiper-container#swiper-list swiper-slide#image-15-swiper  {
-  width: 660px !important;
+  background-image: url('./imagenew/16.jpg');
 }
 swiper-container#swiper-list swiper-slide#image-8-swiper  {
-  width: 663px !important;
+  background-image: url('./imagenew/8.jpg');
 }
 
  
