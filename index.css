@@ -429,7 +429,7 @@ swiper-container#swiper-coaching swiper-slide img {
 swiper-container#swiper-list swiper-slide  {
   height: 660px;
   margin-right: 0 !important;
-  background-size: contain;
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -1089,6 +1089,13 @@ button {
     font-size: 25px;
     line-height: 33px;
   }
+
+  swiper-container#swiper-list swiper-slide  {
+    
+    margin-right: 20px !important;
+
+  }
+
   .header .header-content {
     padding: 0 20px;
   }
