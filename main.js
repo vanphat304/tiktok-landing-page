@@ -49,6 +49,15 @@ async function validate() {
   } else {
     getId("errorPhoneNumber").style.display = "none";
   }
+  if (getId("job").value == "") {
+    getId("errorJob").style.display = "block";
+    invalid = true;
+  } else {
+    getId("errorJob").style.display = "none";
+  }
+
+
+  
   if (invalid) {
     return false;
   } else {
@@ -57,14 +66,16 @@ async function validate() {
     let year = new Date().getFullYear();
     let month = new Date().getMonth() + 1;
     let day = new Date().getDate();
-
     let hour = new Date().getHours();
     let minute = new Date().getMinutes();
+
+
     let result = await registerLiveStream({
       "SỐ ĐIỆN THOẠI": getId("phoneNumber").value,
       "HỌ TÊN": getId("fullName").value,
       EMAIL: getId("email").value,
-      "LỜI NHẮN": getId("note").value,
+      "KHÓ KHĂN": getId("note").value,
+      "NGHỀ NGHIỆP": getId("job").value,
       "NGÀY ĐĂNG KÝ": `${day}/${month}/${year} ${hour}:${minute}`,
     });
     if (result.status == 201) {
