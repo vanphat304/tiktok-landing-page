@@ -133,7 +133,7 @@ Object.assign(swiperEl, {
     clickable: true,
   },
   autoplay: {
-    delay: 1000,
+    delay: 1800,
   },
   breakpoints: {
     340: {
