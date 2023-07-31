@@ -75,7 +75,7 @@ async function validate() {
       "HỌ TÊN": getId("fullName").value,
       EMAIL: getId("email").value,
       "KHÓ KHĂN": getId("note").value,
-      "NGHỀ NGHIỆP": getId("job").value,
+      "SẢN PHẨM ĐANG BÁN": getId("job").value,
       "NGÀY ĐĂNG KÝ": `${day}/${month}/${year} ${hour}:${minute}`,
     });
     if (result.status == 201) {
@@ -125,7 +125,7 @@ document.addEventListener("contextmenu", e => e.preventDefault());
 //     return false;
 // };
 
-const swiperEl = document.querySelector("swiper-container");
+const swiperEl = document.getElementById('swiper-coaching');
 Object.assign(swiperEl, {
   slidesPerView: 2,
   spaceBetween: 10,
@@ -163,3 +163,85 @@ Object.assign(swiperEl, {
   },
 });
 swiperEl.initialize();
+
+const swiperEl2 = document.getElementById('swiper-intro');
+Object.assign(swiperEl2, {
+  slidesPerView: 2,
+  spaceBetween: 10,
+  pagination: {
+    clickable: true,
+  },
+  autoplay: {
+    delay: 2200,
+  },
+  breakpoints: {
+    340: {
+      slidesPerView: 1,
+      spaceBetween: 20,
+    },
+    440: {
+      slidesPerView: 1,
+      spaceBetween: 20,
+    },
+    540: {
+      slidesPerView: 1,
+      spaceBetween: 20,
+    },
+    640: {
+      slidesPerView: 1,
+      spaceBetween: 20,
+    },
+    768: {
+      slidesPerView: 2,
+      spaceBetween: 40,
+    },
+    1024: {
+      slidesPerView: 3,
+      spaceBetween: 50,
+    },
+  },
+});
+
+
+swiperEl2.initialize();
+
+
+
+const swiperEl3 = document.getElementById('swiper-list');
+Object.assign(swiperEl3, {
+  slidesPerView: 2,
+  spaceBetween: 10,
+  pagination: {
+    clickable: true,
+  },
+  autoplay: {
+    delay: 3000,
+  },
+  breakpoints: {
+    340: {
+      slidesPerView: 1,
+      spaceBetween: 20,
+    },
+    440: {
+      slidesPerView: 1,
+      spaceBetween: 20,
+    },
+    540: {
+      slidesPerView: 1,
+      spaceBetween: 20,
+    },
+    640: {
+      slidesPerView: 1,
+      spaceBetween: 20,
+    },
+    768: {
+      slidesPerView: 2,
+      spaceBetween: 40,
+    },
+    1024: {
+      slidesPerView: 2,
+      spaceBetween: 50,
+    },
+  },
+});
+swiperEl3.initialize();

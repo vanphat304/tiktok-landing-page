@@ -36,21 +36,21 @@
   <link rel="stylesheet" href="./index.css">
 
   <style>
-    swiper-container {
+    swiper-container#swiper-coaching {
       width: 100%;
       height: 100%;
     }
 
-    swiper-slide {
+    swiper-container#swiper-coaching  swiper-slide  {
       text-align: center;
       font-size: 18px;
-      background: #fff;
+      background: transparent;
       display: flex;
       justify-content: center;
       align-items: center;
     }
 
-    swiper-slide img {
+    swiper-container#swiper-coaching   swiper-slide img {
       display: block;
       width: 100%;
       height: 100%;
@@ -108,18 +108,88 @@
         </div>
       </div>
 
-      <div  class="tiktoker row ">
-        <div class="image col-12	col-sm-12	.col-md-12	col-lg-12	col-xl-6	col-xxl-6 mt-6">
-          <img style="width: 100%; padding: 20px; " class="animation-appearance-1  " src="./image/Picture1.png" alt="">
-        </div>
-        <div class="image col-12	col-sm-12	.col-md-12	col-lg-12	col-xl-6	col-xxl-6 mt-6">
-          <img style="width: 100%; padding: 20px; " class="animation-appearance-1  " src="./image/banner.png" alt="">
-        </div>
-        <!-- <div class="col-12	col-sm-12	.col-md-12	col-lg-12	col-xl-6	col-xxl-6 mt-6 ">
-          <img style="width: 100%; padding: 20px;" class="animation-appearance-1" src="./image/banner.png" alt="">
-        </div> -->
+      <div>
+      
         
+        
+
+        <swiper-container id="swiper-list" loop="true" class="mySwiper" init="false"
+        thumbs-swiper=".mySwiper2" loop="true" space-between="10" >
+        <swiper-slide>
+          <img src="./imagenew/1.jpg" />
+        </swiper-slide>
+        <swiper-slide>
+          <img src="./imagenew/2.jpg" />
+        </swiper-slide>
+        <swiper-slide>
+          <img src="./imagenew/3.jpg" />
+        </swiper-slide>
+        <swiper-slide>
+          <img src="./imagenew/4.jpg" />
+        </swiper-slide>
+        <swiper-slide>
+          <img src="./imagenew/5.jpg" />
+        </swiper-slide>
+        <swiper-slide>
+          <img src="./imagenew/6.jpg" />
+        </swiper-slide>
+        <swiper-slide>
+          <img src="./imagenew/7.jpg" />
+        </swiper-slide>
+        <swiper-slide>
+          <img src="./image/banner.png" />
+        </swiper-slide>
+       
+      </swiper-container>
+
+
+     
       </div>
+
+
+
+      <div style="margin-bottom: 100px;"  class="m-6" >
+      
+        
+        <swiper-container id="swiper-intro" loop="true" class="mySwiper" init="false"
+        thumbs-swiper=".mySwiper2" loop="true" space-between="10" >
+        <swiper-slide>
+          <img src="./imagenew/8.jpg" />
+        </swiper-slide>
+        <swiper-slide>
+          <img src="./imagenew/9.jpg" />
+        </swiper-slide>
+        <swiper-slide>
+          <img src="./imagenew/10.jpg" />
+        </swiper-slide>
+        <swiper-slide>
+          <img src="./imagenew/11.jpg" />
+        </swiper-slide>
+        <swiper-slide>
+          <img src="./imagenew/12.jpg" />
+        </swiper-slide>
+        <swiper-slide>
+          <img src="./imagenew/13.jpg" />
+        </swiper-slide>
+        <swiper-slide>
+          <img src="./imagenew/14.jpg" />
+        </swiper-slide>
+        <swiper-slide id="last" >
+          <img src="./image/Picture1.png" />
+        </swiper-slide>
+       
+      </swiper-container>
+
+
+     
+      </div>
+
+
+
+     
+
+
+     
 
       <!-- <div class="only-mobile" >  
         <p class=" content_text-info fs-32 text-center">
@@ -216,7 +286,7 @@
       </h2>
 
 
-      <swiper-container class="mySwiper" init="false">
+      <swiper-container id="swiper-coaching" loop="true" class="mySwiper" init="false">
         <swiper-slide class="swiper-custom">
           <div class="card box-shadow " style="width: 30rem  ;  ">
             <img src="./image/kienreview.png" style="border-radius: 50%;" class="card-img-top" alt="...">
@@ -329,9 +399,9 @@
             </div>
             <div class="wrap-input100">
               <input class="input100" type="text" id="job">
-              <span class="focus-input100" data-placeholder="Bạn đang làm nghề gì"></span>
+              <span class="focus-input100" data-placeholder="Bạn đang bán sản phẩm gì ?"></span>
               <span id="errorJob" class="error">
-                * vui lòng điền nghề nghiệp hiện tại của bạn !
+                * vui lòng điền thông tin này nha !
               </span>
             </div>
 
@@ -412,7 +482,7 @@
             <!--Grid column-->
             <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
               <h5 class="text-uppercase">LIVE STREAM</h5>
-              <p>
+              <p class="text-live" >
                 LIVESTREAM - SHORT VIDEO VÀ NHỮNG ĐIỀU CẦN BIẾT ĐỂ TRỞ THÀNH CHIẾN THẦN NGÀN ĐƠN.
               </p>
             </div>

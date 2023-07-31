@@ -282,7 +282,10 @@ body {
 .tiktoker {
   display: flex;
   justify-content: space-around;
-  transform: translateY(-10%);
+  /* transform: translateY(-10%); */
+  /* background-image: url('./imagenew/3.jpg'); */
+
+  
   
 }
 
@@ -407,20 +410,47 @@ body {
   position: static;
 }
 
-swiper-container {
+swiper-container#swiper-coaching {
   width: 100%;
   height: 100%;
 }
 
-swiper-slide {
+swiper-container#swiper-coaching swiper-slide {
   background-position: center;
   background-size: cover;
 }
 
-swiper-slide img {
+swiper-container#swiper-coaching swiper-slide img {
   display: block;
   width: 100%;
 }
+
+
+
+swiper-container#swiper-intro swiper-slide  {
+  height: 660px;
+  margin-right: 0 !important;
+}
+
+swiper-container#swiper-intro swiper-slide#last  {
+  width: 1200px !important;
+}
+
+
+swiper-container#swiper-intro swiper-slide img {
+  height: 660px;
+}
+
+
+swiper-container#swiper-list swiper-slide  {
+  height: 660px;
+  margin-right: 0 !important;
+}
+swiper-container#swiper-list swiper-slide img {
+  height: 660px;
+}
+
+
 
 .link-section {
   background: #ffc107;
@@ -457,7 +487,7 @@ swiper-slide img {
   min-height: 1000px;
 }
 
-.mySwiper,
+#swiper-coaching,
 .register,
 .resiter-contain {
   position: relative;
@@ -470,7 +500,7 @@ swiper-slide img {
   height: 960px;
 }
 
-.swiper-custom {
+ swiper-custom {
   background-color: transparent;
 }
 .register {
@@ -958,6 +988,16 @@ button {
   }
 }
 
+@media only screen and (max-width: 1580px) {
+  .left-content .content_text {
+    font-size: 26px;
+}
+  .right-content .content_text {
+    font-size: 26px;
+}
+}
+
+
 @media only screen and (max-width: 960px) {
   .header .header-content {
     padding: 0 40px;
@@ -984,6 +1024,8 @@ button {
   /* .intro_foundation {
     height: 1800px;
   } */
+
+
   .register {
     height: 1180px;
   }
@@ -1009,10 +1051,10 @@ button {
     padding: 0 20px;
   }
   .left-content .content_text {
-    font-size: 18px;
+    font-size: 19px;
 }
   .right-content .content_text {
-    font-size: 18px;
+    font-size: 19px;
 }
 
 .content_text-2.mb-3.infinite_debound{
@@ -1070,6 +1112,14 @@ button {
   .register {
     height: 1360px;
   }
+}
+@media only screen and (max-width: 365px) {
+  .left-content .content_text {
+    font-size: 14px;
+}
+  .right-content .content_text {
+    font-size: 14px;
+}
 }
 
 @media only screen and (max-width: 660px) {
