@@ -1015,6 +1015,10 @@ button {
     font-size: 18px;
 }
 
+.content_text-2.mb-3.infinite_debound{
+  font-size: 40px;
+}
+
 .card.box-shadow{
   width: 18rem !important;
 } 
