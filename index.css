@@ -284,9 +284,6 @@ body {
   justify-content: space-around;
   /* transform: translateY(-10%); */
   /* background-image: url('./imagenew/3.jpg'); */
-
-  
-  
 }
 
 .tiktoker .image {
@@ -296,8 +293,7 @@ body {
   overflow: hidden;
 }
 
-
-.tiktoker .image:has( > img) {
+.tiktoker .image:has(> img) {
   border-radius: 5px;
 }
 /* .tiktoker .image:has( > img):hover {
@@ -305,16 +301,11 @@ body {
   filter: drop-shadow(0 -6mm 4mm rgb(234, 243, 106));
 } */
 
-
-
-.tiktoker .image{
+.tiktoker .image {
   transform: translateX(16px);
 }
 
-
-
-
-.popup-register{
+.popup-register {
   transform: translateY(-76px);
   position: relative;
   z-index: 10;
@@ -334,7 +325,6 @@ body {
     rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
   border-radius: 50px;
   backdrop-filter: blur(8px);
-
 }
 
 .btn-register {
@@ -375,8 +365,6 @@ body {
   /* background: linear-gradient(#e66465, #9198e5); */
   /* backdrop-filter: blur(8px); */
 }
-
-
 
 .text-flip {
   animation: flip 2s infinite;
@@ -425,8 +413,7 @@ swiper-container#swiper-coaching swiper-slide img {
   width: 100%;
 }
 
-
-swiper-container#swiper-list swiper-slide  {
+swiper-container#swiper-list swiper-slide {
   height: 660px;
   margin-right: 0 !important;
   background-size: cover;
@@ -434,51 +421,85 @@ swiper-container#swiper-list swiper-slide  {
   background-repeat: no-repeat;
 }
 
-swiper-container#swiper-list swiper-slide#image-2-swipper  {
-  background-image: url('./imagenew/1.jpg');
+swiper-container#swiper-list swiper-slide#image-2-swipper {
+  background-image: url("./imagenew/1.jpg");
 }
 
-swiper-container#swiper-list swiper-slide#image-3-swiper  {
-  background-image: url('./imagenew/3.jpg');
+swiper-container#swiper-list swiper-slide#image-3-swiper {
+  background-image: url("./imagenew/3.jpg");
 }
-swiper-container#swiper-list swiper-slide#image-4-swiper  {
-  background-image: url('./imagenew/4.jpg');
+swiper-container#swiper-list swiper-slide#image-4-swiper {
+  background-image: url("./imagenew/4.jpg");
 }
-swiper-container#swiper-list swiper-slide#image-5-swiper  {
-  background-image: url('./imagenew/6.jpg');
+swiper-container#swiper-list swiper-slide#image-5-swiper {
+  background-image: url("./imagenew/6.jpg");
 }
-swiper-container#swiper-list swiper-slide#image-6-swiper  {
-  background-image: url('./imagenew/7.jpg');
+swiper-container#swiper-list swiper-slide#image-6-swiper {
+  background-image: url("./imagenew/7.jpg");
 }
-swiper-container#swiper-list swiper-slide#image-7-swiper  {
-  background-image: url('./imagenew/10.jpg');
+swiper-container#swiper-list swiper-slide#image-7-swiper {
+  background-image: url("./imagenew/10.jpg");
 }
-swiper-container#swiper-list swiper-slide#image-10-swiper  {
-  background-image: url('./imagenew/15.jpg');
+swiper-container#swiper-list swiper-slide#image-10-swiper {
+  background-image: url("./imagenew/15.jpg");
 }
-swiper-container#swiper-list swiper-slide#image-15-swiper  {
-  background-image: url('./imagenew/16.jpg');
+swiper-container#swiper-list swiper-slide#image-15-swiper {
+  background-image: url("./imagenew/16.jpg");
 }
-swiper-container#swiper-list swiper-slide#image-16-swiper  {
-  background-image: url('./imagenew/9.jpg');
+swiper-container#swiper-list swiper-slide#image-16-swiper {
+  background-image: url("./imagenew/9.jpg");
 }
-swiper-container#swiper-list swiper-slide#image-8-swiper  {
-  background-image: url('./imagenew/8.jpg');
+swiper-container#swiper-list swiper-slide#image-8-swiper {
+  background-image: url("./imagenew/8.jpg");
+}
+swiper-container#swiper-list swiper-slide#image-8-swiper {
+  background-image: url("./imagenew/8.jpg");
+}
+swiper-container#swiper-list swiper-slide#image-20-swiper {
+  background-image: url("./imagenew/20.jpg");
+}
+swiper-container#swiper-list swiper-slide#image-21-swiper {
+  background-image: url("./imagenew/21.jpg");
+}
+swiper-container#swiper-list swiper-slide#image-22-swiper {
+  background-image: url("./imagenew/22.jpg");
+  background-size: contain;
+}
+swiper-container#swiper-list swiper-slide#image-23-swiper {
+  background-image: url("./imagenew/23.jpg");
+}
+swiper-container#swiper-list swiper-slide#image-24-swiper {
+  background-image: url("./imagenew/24.jpg");
+  background-size: cover;
+  background-position-y: unset;
+  margin-right: 50px;
+}
+swiper-container#swiper-list swiper-slide#image-25-swiper {
+  background-image: url("./imagenew/25.jpg");
 }
 
- 
-swiper-container#swiper-intro swiper-slide  {
+swiper-container#swiper-intro swiper-slide {
   height: 660px;
   margin-right: 0 !important;
 }
 
+.link-bio {
+  border: solid 1px #333;
+  border-radius: 10px;
+  color: orangered;
+  text-decoration: none;
+  transition: all ease-in 0.1s;
+}
 
-
+.link-bio:hover{
+  transform: scale(1.01);
+  color: orangered;
+  text-decoration: underline;
+}
 
 /* swiper-container#swiper-intro swiper-slide#last  {
   width: 1200px !important;
 } */
-
 
 /* swiper-container#swiper-intro swiper-slide img {
   height: 100%;
@@ -491,8 +512,6 @@ swiper-container#swiper-list swiper-slide img {
   height: 100%;
   width: 100%;
 } */
-
-
 
 .link-section {
   background: #ffc107;
@@ -537,12 +556,11 @@ swiper-container#swiper-list swiper-slide img {
   height: 800px;
 }
 
-
-.register{
+.register {
   height: 960px;
 }
 
- swiper-custom {
+swiper-custom {
   background-color: transparent;
 }
 .register {
@@ -567,7 +585,8 @@ swiper-container#swiper-list swiper-slide img {
 
 .btn-register {
   font-size: 24px;
-  box-shadow: rgba(184, 173, 173, 0.3) 0px 19px 38px, rgba(197, 185, 185, 0.22) 0px 15px 12px;
+  box-shadow: rgba(184, 173, 173, 0.3) 0px 19px 38px,
+    rgba(197, 185, 185, 0.22) 0px 15px 12px;
 }
 
 .wrap-input100 {
@@ -587,11 +606,11 @@ swiper-container#swiper-list swiper-slide img {
   font-size: 18px;
   color: #555555;
   line-height: 1.2;
-padding-left: 20px;
+  padding-left: 20px;
   display: block;
   width: 100%;
   height: 45px;
-  background: rgb(232, 241, 97,0.1);
+  background: rgb(232, 241, 97, 0.1);
   padding: 0 5px 0 20px;
 }
 
@@ -685,7 +704,6 @@ padding-left: 20px;
   flex-wrap: wrap;
   justify-content: center;
   padding-top: 13px;
-
 }
 
 .wrap-login100-form-btn {
@@ -702,13 +720,13 @@ input,
 textarea {
   /* border: none; */
   outline: none;
-  border : solid 0.9px #ff5300;
+  border: solid 0.9px #ff5300;
   border-radius: 25px;
   padding-left: 20px;
 }
 
-.text-normal{
-  text-transform: capitalize ;
+.text-normal {
+  text-transform: capitalize;
 }
 
 .text-area {
@@ -1002,14 +1020,11 @@ button {
 } */
 
 @media only screen and (max-width: 1156px) {
-
-
   .left-content .content_text {
     font-size: 24px;
   }
 
-
-  .text-yellow.content_text{
+  .text-yellow.content_text {
     font-size: 18px;
   }
 
@@ -1019,7 +1034,7 @@ button {
 
   .btn-register.fs2 {
     font-size: 14px !important;
-  } 
+  }
 
   .content_text-info {
     font-size: 14px;
@@ -1033,12 +1048,11 @@ button {
 @media only screen and (max-width: 1580px) {
   .left-content .content_text {
     font-size: 26px;
-}
+  }
   .right-content .content_text {
     font-size: 26px;
+  }
 }
-}
-
 
 @media only screen and (max-width: 960px) {
   .header .header-content {
@@ -1046,7 +1060,7 @@ button {
   }
   .header-wrapper {
     padding: 44px 40px 54px;
-}
+  }
 }
 
 @media only screen and (max-width: 830px) {
@@ -1055,18 +1069,13 @@ button {
   }
   .header-wrapper {
     padding: 44px 10px 54px;
+  }
 }
-
-}
-
-
-
 
 @media only screen and (max-width: 1200px) {
   /* .intro_foundation {
     height: 1800px;
   } */
-
 
   .register {
     height: 1180px;
@@ -1082,16 +1091,13 @@ button {
   } */
 }
 
-
-
 @media only screen and (max-width: 740px) {
   .header .header-content p.title {
     font-size: 25px;
     line-height: 33px;
   }
 
-  swiper-container#swiper-list swiper-slide  {
-    
+  swiper-container#swiper-list swiper-slide {
     margin-right: 20px !important;
     background-size: contain !important;
   }
@@ -1101,25 +1107,23 @@ button {
   }
   .left-content .content_text {
     font-size: 19px;
-}
+  }
   .right-content .content_text {
     font-size: 19px;
-}
+  }
 
-.content_text-2.mb-3.infinite_debound{
-  font-size: 40px !important;
-}
+  .content_text-2.mb-3.infinite_debound {
+    font-size: 40px !important;
+  }
 
-.card.box-shadow{
-  width: 18rem !important;
-} 
+  .card.box-shadow {
+    width: 18rem !important;
+  }
 
-.button-ads {
-  font-size: 12px;
-  margin-bottom: 6px;  
-}
-
-
+  .button-ads {
+    font-size: 12px;
+    margin-bottom: 6px;
+  }
 }
 
 @media only screen and (max-width: 720px) {
@@ -1165,10 +1169,10 @@ button {
 @media only screen and (max-width: 365px) {
   .left-content .content_text {
     font-size: 14px;
-}
+  }
   .right-content .content_text {
     font-size: 14px;
-}
+  }
 }
 
 @media only screen and (max-width: 660px) {
@@ -1179,6 +1183,3 @@ button {
     font-size: 20px;
   }
 }
-
-
-
