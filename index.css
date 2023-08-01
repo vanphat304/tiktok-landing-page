@@ -327,6 +327,81 @@ body {
   backdrop-filter: blur(8px);
 }
 
+.title-talk {
+  width: 40%;
+  margin: 70px auto;
+}
+
+.talk-about-bigx {
+  text-align: center;
+  font-size: 32px;
+  margin: 20px 0;
+  font-weight: 600;
+  background: #ffc107;
+  color: #212529;
+  border-radius: 20px;
+  padding: 21px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.image-container img {
+  border-radius: 10px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  transition: all 1s;
+  position: relative;
+  overflow: hidden;
+}
+
+.link-price-active {
+  font-weight: 700;
+  color: #c96641;
+  font-size: 18px;
+  border-top: solid 0.6px;
+  text-align: center;
+  border-bottom: solid 0.6px;
+  padding: 12px 0;
+  text-transform: capitalize;
+}
+
+.image-container img:hover {
+  border: solid 0.1px salmon;
+  scale: 1.05;
+
+  
+}
+
+.image-container image:after{
+  content: "";
+  position: absolute;
+  top: -110%;
+  left: -210%;
+  width: 200%;
+  height: 200%;
+  opacity: 0;
+  transform: rotate(30deg);
+  
+  background: rgba(255, 255, 255, 0.13);
+  background: linear-gradient(
+    to right, 
+    rgba(255, 255, 255, 0.13) 0%,
+    rgba(255, 255, 255, 0.13) 77%,
+    rgba(255, 255, 255, 0.5) 92%,
+    rgba(255, 255, 255, 0.0) 100%
+  );
+}
+
+.image-container image:hover:after {
+  opacity: 1;
+  top: -30%;
+  left: -30%;
+  transition-property: left, top, opacity;
+  transition-duration: 0.7s, 0.7s, 0.15s;
+  transition-timing-function: ease;
+}
+
 .btn-register {
   font-family: "M PLUS Rounded 1c", sans-serif !important;
   font-size: 14px;
@@ -334,7 +409,7 @@ body {
 
 .content_text-info {
   font-family: "M PLUS Rounded 1c", sans-serif !important;
-  font-size: 18px;
+  font-size: 22px;
   color: #212529;
   text-transform: capitalize;
   /* text-shadow: 5px 2px 2px #7a6007; */
@@ -488,7 +563,7 @@ swiper-container#swiper-intro swiper-slide {
   transition: all ease-in 0.1s;
 }
 
-.link-bio:hover{
+.link-bio:hover {
   transform: scale(1.01);
   color: orangered;
   text-decoration: underline;
@@ -554,7 +629,7 @@ swiper-container#swiper-list swiper-slide img {
 }
 
 .register {
-  height: 960px;
+  height: 1040px;
 }
 
 swiper-custom {
@@ -711,6 +786,12 @@ swiper-custom {
   border-radius: 25px;
   overflow: hidden;
   margin: 0 auto;
+}
+
+.price-origin {
+  font-size: 38px;
+  font-weight: 700;
+  color: #c96641;
 }
 
 input,
@@ -1009,12 +1090,18 @@ button {
   .header {
     width: 88%;
   }
-}
-@media only screen and (max-width: 832px) {
-  .header {
-    width: 100%;
-  }
 } */
+
+@media only screen and (max-width: 1380px) {
+  .talk-about-bigx {
+    font-size: 28px;
+  }
+}
+@media only screen and (max-width: 1267px) {
+  .talk-about-bigx {
+    font-size: 24px;
+  }
+}
 
 @media only screen and (max-width: 1156px) {
   .left-content .content_text {
@@ -1153,7 +1240,7 @@ button {
   .payment .container {
     max-width: 620px;
   }
-  .header .header-content p.quote{
+  .header .header-content p.quote {
     font-size: 14px;
     font-weight: 500;
     padding: 6px 0;
