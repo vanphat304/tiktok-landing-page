@@ -629,7 +629,7 @@ swiper-container#swiper-list swiper-slide img {
 }
 
 .register {
-  height: 1040px;
+  height: 1230px;
 }
 
 swiper-custom {
@@ -1162,7 +1162,7 @@ button {
   } */
 
   .register {
-    height: 1180px;
+    height: 1540px;
   }
   .link-section {
     font-size: 28px;
@@ -1197,7 +1197,7 @@ button {
   }
 
   .content_text-2.mb-3.infinite_debound {
-    font-size: 40px !important;
+    font-size: 36px !important;
   }
 
   .card.box-shadow {
@@ -1252,7 +1252,7 @@ button {
 }
 @media only screen and (max-width: 400px) {
   .register {
-    height: 1360px;
+    height: 1600px;
   }
 }
 @media only screen and (max-width: 365px) {
