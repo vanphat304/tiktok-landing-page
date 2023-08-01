@@ -573,6 +573,15 @@ swiper-container#swiper-list swiper-slide#image-24-swiper {
 swiper-container#swiper-list swiper-slide#image-25-swiper {
   background-image: url("./imagenew/25.jpg");
 }
+swiper-container#swiper-list swiper-slide#image-30-swiper {
+  background-image: url("./imagenew/30.jpg");
+}
+swiper-container#swiper-list swiper-slide#image-31-swiper {
+  background-image: url("./imagenew/31.jpg");
+}
+swiper-container#swiper-list swiper-slide#image-32-swiper {
+  background-image: url("./imagenew/32.jpg");
+}
 
 swiper-container#swiper-intro swiper-slide {
   height: 660px;
