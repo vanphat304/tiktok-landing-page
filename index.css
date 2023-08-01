@@ -880,6 +880,7 @@ button {
   background-size: cover;
   background-position: center;
   position: relative;
+  padding-bottom: 70px ;
 }
 
 .payment__content {
@@ -1174,12 +1175,22 @@ button {
   .link-section {
     font-size: 28px;
   }
+  .link-section.small {
+    font-size: 18px;
+  }
 }
 
 @media only screen and (max-width: 890px) {
   /* .intro_foundation {
     height: 2000px;
   } */
+}
+
+
+@media only screen and (max-width: 820px) {
+  .text-live{
+    font-size: 14px;
+  }
 }
 
 @media only screen and (max-width: 740px) {
@@ -1222,15 +1233,11 @@ button {
     font-size: 34px;
   }
   .text-live{
-    font-size: 15px;
+    font-size: 13px;
   }
 }
 
-@media only screen and (max-width: 720px) {
-  /* .intro_foundation {
-    height: 2200px;
-  } */
-}
+
 @media only screen and (max-width: 720px) {
   /* .intro_foundation {
     height: 2400px;
@@ -1243,6 +1250,9 @@ button {
   .link-section {
     font-size: 28px;
   }
+  .link-section.small {
+    font-size: 18px ;
+  }
 }
 @media only screen and (max-width: 580px) {
   /* .intro_foundation {
@@ -1250,6 +1260,9 @@ button {
   } */
   .link-section {
     font-size: 28px;
+  }
+  .link-section.small {
+    font-size: 17px;
   }
 }
 @media only screen and (max-width: 780px) {
@@ -1270,6 +1283,11 @@ button {
   .register {
     height: 1600px;
   }
+  .link-section.small {
+    font-size: 16px;
+  }
+  
+  
 }
 @media only screen and (max-width: 365px) {
   .left-content .content_text {
@@ -1278,13 +1296,20 @@ button {
   .right-content .content_text {
     font-size: 14px;
   }
+
+  
 }
 
 @media only screen and (max-width: 660px) {
   .payment .container {
     max-width: 680px;
   }
-  .link-section {
-    font-size: 20px;
+  .link-section.small {
+    font-size: 16px;
+  }
+}
+@media only screen and (max-width: 393px) {
+  .link-section.small {
+    font-size: 12px;
   }
 }
