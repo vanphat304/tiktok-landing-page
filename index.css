@@ -1181,6 +1181,8 @@ button {
     line-height: 33px;
   }
 
+
+
   swiper-container#swiper-list swiper-slide {
     margin-right: 20px !important;
     background-size: contain !important;
@@ -1207,6 +1209,10 @@ button {
   .button-ads {
     font-size: 12px;
     margin-bottom: 6px;
+  }
+
+  .price-origin{
+    font-size: 34px;
   }
 }
 
