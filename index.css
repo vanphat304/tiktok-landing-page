@@ -353,6 +353,13 @@ body {
   transition: all 1s;
   position: relative;
   overflow: hidden;
+  width: 100%;
+}
+
+.feedback{
+  background: linear-gradient(#eccd4f, #f6f6f6);
+  margin-bottom: 60px;
+
 }
 
 .link-price-active {
@@ -1213,6 +1220,9 @@ button {
 
   .price-origin{
     font-size: 34px;
+  }
+  .text-live{
+    font-size: 15px;
   }
 }
 
