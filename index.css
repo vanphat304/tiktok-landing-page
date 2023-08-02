@@ -261,6 +261,11 @@ body {
   font-family: "M PLUS Rounded 1c", sans-serif !important;
 }
 
+.reponsive-text{
+  display: none;
+}
+
+
 .content_text {
   color: #202124;
   font-size: 40px;
@@ -895,9 +900,6 @@ button {
   transition: all 0.4s;
 }
 
-.reponsive-text{
-  display: none;
-}
 
 .login100-form-btn {
   line-height: 1.2;
@@ -1160,7 +1162,7 @@ button {
 
 
 
-@media only screen and (max-width: 1380px) {
+@media only screen and (max-width: 1395px) {
   .talk-about-bigx {
     font-size: 28px;
   }
@@ -1175,8 +1177,10 @@ button {
 
   .reponsive-text{
     display: block;
+    opacity: 0;
   }
 }
+
 
 @media only screen and (max-width: 1267px) {
   .talk-about-bigx {
@@ -1232,6 +1236,22 @@ button {
   }
   #resiter-sticky{
     opacity: 1;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .reponsive-text{
+    display: none;
+    opacity: 0;
+  }
+}
+
+
+
+@media only screen and (max-width: 991px) {
+  .reponsive-text{
+    display: block;
+    opacity: 0;
   }
 }
 
