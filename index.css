@@ -512,13 +512,13 @@ swiper-container#swiper-coaching swiper-slide img {
   width: 100%;
 }
 
-swiper-container#swiper-list swiper-slide {
+/* swiper-container#swiper-list swiper-slide {
   height: 660px;
   margin-right: 0 !important;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-}
+} */
 
 swiper-container#swiper-list swiper-slide#image-2-swipper {
   background-image: url("./imagenew/1.jpg");
@@ -583,9 +583,18 @@ swiper-container#swiper-list swiper-slide#image-32-swiper {
   background-image: url("./imagenew/32.jpg");
 }
 
-swiper-container#swiper-intro swiper-slide {
+swiper-container#swiper-list swiper-slide {
   height: 660px;
-  margin-right: 0 !important;
+  margin-right: 32px !important;
+}
+swiper-container#swiper-list swiper-slide img {
+  height: 660px !important ;  
+  object-fit: cover;
+  /* margin-right: 0 !important; */
+}
+swiper-container#swiper-list swiper-slide img.top {
+  object-position: top;
+  /* margin-right: 0 !important; */
 }
 
 .link-bio {
@@ -880,6 +889,10 @@ button {
   transition: all 0.4s;
 }
 
+.reponsive-text{
+  display: none;
+}
+
 .login100-form-btn {
   line-height: 1.2;
   text-transform: uppercase;
@@ -1126,11 +1139,35 @@ button {
   }
 } */
 
+@media only screen and (min-width : 2200px) {
+  swiper-container#swiper-list swiper-slide img {
+    object-position: top;
+  }
+  swiper-container#swiper-list swiper-slide img.center {
+    object-position: center;
+  }
+}
+
+
+
 @media only screen and (max-width: 1380px) {
   .talk-about-bigx {
     font-size: 28px;
   }
+
+  swiper-container#swiper-list swiper-slide {
+    margin-right: 50px !important;
+  }
+
+  swiper-container#swiper-list swiper-slide img {
+    object-fit: contain;
+  }
+
+  .reponsive-text{
+    display: block;
+  }
 }
+
 @media only screen and (max-width: 1267px) {
   .talk-about-bigx {
     font-size: 24px;
@@ -1140,6 +1177,10 @@ button {
 @media only screen and (max-width: 1156px) {
   .left-content .content_text {
     font-size: 24px;
+  }
+
+  swiper-container#swiper-list swiper-slide {
+    margin-right: 40px !important;
   }
 
   .text-yellow.content_text {
