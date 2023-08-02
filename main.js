@@ -8,6 +8,19 @@ $(".input100").each(function () {
   });
 });
 
+$(window).on("scroll", function() {
+  if($(window).scrollTop() > 670) {
+      $("#resiter-sticky").addClass("mobile");
+  } else {
+      //remove the background property so it comes transparent again (defined in your css)
+     $("#resiter-sticky").removeClass("mobile");
+  }
+});
+
+
+console.log( document.documentElement.scrollHeight) 
+
+
 function getId(id) {
   return document.getElementById(id);
 }

@@ -371,6 +371,11 @@ body {
   position: relative;
   overflow: hidden;
   width: 100%;
+  height: 100%;
+}
+
+.image-container.full {
+  height: 96%;
 }
 
 .feedback{
@@ -660,6 +665,7 @@ swiper-container#swiper-list swiper-slide img {
   padding-bottom: 100px;
   margin: 1px 0;
   min-height: 1000px;
+  z-index: 7;
 }
 
 #swiper-coaching,
@@ -1080,6 +1086,10 @@ button {
   z-index: 1000;
 }
 
+#resiter-sticky{
+  opacity: 0;
+}
+
 /* @media only screen and (max-width: 1810px) {
   .header {
     width: 44%;
@@ -1220,7 +1230,17 @@ button {
   .header-wrapper {
     padding: 44px 40px 54px;
   }
+  #resiter-sticky{
+    opacity: 1;
+  }
 }
+
+.popup-register.mobile{
+  position: sticky;
+  top: 2px;
+  display: block;
+}
+
 
 @media only screen and (max-width: 830px) {
   .header .header-content {
@@ -1229,6 +1249,8 @@ button {
   .header-wrapper {
     padding: 44px 10px 54px;
   }
+
+
 }
 
 @media only screen and (max-width: 1200px) {
@@ -1321,10 +1343,29 @@ button {
     font-size: 18px ;
   }
 }
+
 @media only screen and (max-width: 580px) {
   /* .intro_foundation {
     height: 3000px;
   } */
+
+  swiper-container#swiper-list swiper-slide img {
+    height: auto !important;
+ 
+  }
+}
+
+@media only screen and (max-width: 580px) {
+  /* .intro_foundation {
+    height: 3000px;
+  } */
+
+  swiper-container#swiper-list swiper-slide img.top {
+
+    object-fit: cover;
+    object-position: top;
+  }
+
   .link-section {
     font-size: 28px;
   }
@@ -1380,3 +1421,5 @@ button {
     font-size: 12px;
   }
 }
+
+
