@@ -1162,6 +1162,12 @@ button {
 
 
 
+@media only screen and (max-width: 1399px) {
+  .reponsive-text{
+    display: block;
+    opacity: 0;
+  }
+}
 @media only screen and (max-width: 1110px) {
   .talk-about-bigx {
     font-size: 28px;
