@@ -209,6 +209,14 @@ Object.assign(swiperEl3, {
       slidesPerView: 1,
       spaceBetween: 50,
     },
+    1110: {
+      slidesPerView: 2,
+      spaceBetween: 10,
+    },
+    1248: {
+      slidesPerView: 2,
+      spaceBetween: 10,
+    },
     
     1320: {
       slidesPerView: 2,
